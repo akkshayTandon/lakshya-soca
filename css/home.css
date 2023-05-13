@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --main-theme: #F59E0B;
+    /* https://dummyimage.com/720x600 */
+}
+
+.slider{
+    /* position: absolute; */
+    background: url(../img/gallery/sks-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slide 120s infinite ease-in-out;
+}
+
+@keyframes slide{
+    0%{
+        background-image: url(../img/gallery/sks-6.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    20%{
+        background-image: url(../img/gallery/sks-2.jpg);
+    }
+    40%{
+        background-image: url(../img/gallery/umaga-4.jpg);
+    }
+    60%{
+        background-image: url(../img/gallery/sks-1.jpg);
+    }
+    80%{
+        background-image: url(../img/gallery/umaga-2.jpg);
+    }
+    100%{
+        background-image: url(../img/gallery/umaga-8.jpg);
+    }
+}
+
+#details::before {
+    content: "";
+    background-color: #000000;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    position: absolute;
+    z-index: -2;
+    opacity: 0.9;
+}
+
+@media (max-width: 639px){
+    
+}
