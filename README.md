@@ -1,4 +1,4 @@
-# AAINA
+# LAKSHYA
 
 'LAKSHYA' is the student club of School Of Computer Application, BBD University. This is the website for 'lakshya' made as a project. (not the official website)
 
