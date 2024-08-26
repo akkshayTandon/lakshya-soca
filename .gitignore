@@ -1,3 +1,4 @@
 # ignore ALL files in node_modules
 node_modules/
-/events.html
+events.html
+dist
